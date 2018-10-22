@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url("P1040880.JPG");
+    background: url("P1040880.JPG") no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
@@ -16,7 +16,7 @@ body {
 
 @media (max-width: 480px) {
     body {
-        background: url("P1040880mobile.JPG");
+        background: url("P1040880mobile.JPG") no-repeat;
     }
 }
 
