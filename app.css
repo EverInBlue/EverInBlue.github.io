@@ -7,17 +7,13 @@
 }
 
 body {
-    background: url("P1040880.JPG") no-repeat;
+    background: url("P1040880.JPG");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
     font-family: 'Lato', sans-serif;
     color: white;
-}
-
-@media (max-width: 480px) {
-    body {
-        background: url("P1040880mobile.JPG") no-repeat;
-    }
 }
 
 .names {
