@@ -29,6 +29,10 @@ body {
     #content {
         padding-top: 250px;
     }
+	
+	body {
+		background: url("P1040880mobile.JPG");
+	}
 }
 
 .names {
