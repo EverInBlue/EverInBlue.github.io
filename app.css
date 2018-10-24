@@ -21,6 +21,14 @@ body {
     .names {
         font-size: 3em;
     }
+
+    .divider-line {
+        width: 250px;
+    }
+
+    #content {
+        padding-top: 50%;
+    }
 }
 
 .names {
