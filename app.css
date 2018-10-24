@@ -74,8 +74,12 @@ h1 {
     font-size: 5em;
 }
 
-.no-margin {
+.section-title {
     margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 4em;
 }
 
 html {
@@ -90,4 +94,17 @@ hr {
 
 .ourstory {
     background-color: DARKSLATEGREY;
+}
+
+/* lists */
+dt {
+  margin: 1em 1em 0 0;
+  float: left;
+  clear: both;
+  width: 5%
+}
+dd {
+  margin: 1em 0 0 0;
+  float: left;
+  width: 80%;
 }
