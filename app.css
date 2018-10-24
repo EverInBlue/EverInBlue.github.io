@@ -48,6 +48,19 @@ body {
         background-size: cover;
         background-position: center;
     }
+
+    body .list-title {
+      margin: 1em 1em 0 0;
+      float: left;
+      clear: both;
+      width: 15%;
+    }
+
+    body .list-detail {
+      margin: 1em 0 0 0;
+      float: left;
+      width: 80%;
+    }
 }
 
 .names {
@@ -97,14 +110,18 @@ hr {
 }
 
 /* lists */
-dt {
+dl {
+    margin-left: 25%;
+}
+
+.list-title {
   margin: 1em 1em 0 0;
   float: left;
   clear: both;
-  width: 5%
+  width: 8%;
 }
-dd {
+.list-detail {
   margin: 1em 0 0 0;
   float: left;
-  width: 80%;
+  width: 87%;
 }
