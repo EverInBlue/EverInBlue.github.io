@@ -18,10 +18,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 2em;
+    .names {
+        font-size: 3em;
     }
 }
+
 .names {
     font-family: 'Parisienne', cursive;;
 }
