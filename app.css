@@ -6,18 +6,23 @@
                  0px 18px 23px rgba(0,0,0,0.1);
 }
 
+
 body {
+    font-family: 'Lato', sans-serif;
+    color: white;
     background: url("P1040880.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
-    font-family: 'Lato', sans-serif;
-    color: white;
 }
 
 .names {
     font-family: 'Parisienne', cursive;;
+}
+
+.landing-page {
+    height: 100%;
 }
 
 .navbar {
@@ -40,6 +45,10 @@ h1 {
     font-size: 5em;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 html {
     height: 100%;
 }
@@ -49,3 +58,6 @@ hr {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+
+.ourstory {
+    background-color: DARKSLATEGREY;
