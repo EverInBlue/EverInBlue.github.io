@@ -7,9 +7,14 @@
 }
 
 
+
 body {
     font-family: 'Lato', sans-serif;
     color: white;
+    height: 100%;
+}
+
+.intro {
     background: url("P1040880.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,10 +34,13 @@ body {
     #content {
         padding-top: 250px;
     }
-	
-	body {
-		background: url("P1040880mobile.JPG");
-	}
+
+    .intro {
+        background: url("P10408802mobile.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .names {
