@@ -92,8 +92,17 @@ hr {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.ourstory {
+.ceremony {
     background-color: DARKSLATEGREY;
+}
+
+.our-story {
+    background-color: #bfadcc;
+    color: #2f2d30;
+}
+
+.gallery {
+    background-color: #62526d;
 }
 
 /* lists */
