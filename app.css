@@ -80,10 +80,16 @@ h1 {
     text-align: center;
     font-family: 'Parisienne', cursive;
     font-size: 4em;
+    padding-bottom: 10px;
 }
 
 html {
     height: 100%;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 hr {
@@ -94,15 +100,18 @@ hr {
 
 .ceremony {
     background-color: DARKSLATEGREY;
+    height: 50vh;
 }
 
 .our-story {
     background-color: #bfadcc;
     color: #2f2d30;
+    height: 50vh;
 }
 
 .gallery {
     background-color: #62526d;
+    height: 50vh;
 }
 
 /* lists */
