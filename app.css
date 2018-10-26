@@ -90,6 +90,7 @@ html {
 p {
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0px;
 }
 
 hr {
@@ -100,24 +101,24 @@ hr {
 
 .ceremony {
     background-color: DARKSLATEGREY;
-    height: 100vh;
+    height: auto;
 }
 
 .our-story {
     background-color: #bfadcc;
     color: #2f2d30;
-    height: 100vh;
+    height: auto;
 }
 
 .gallery {
     background-color: #62526d;
-    height: 100vh;
+    height: auto;
 }
 
 /* lists */
 
 dl {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-left: 25%;
     margin-right: 25%;
     padding-bottom: 150px;
