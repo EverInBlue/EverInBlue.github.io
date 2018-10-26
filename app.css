@@ -100,18 +100,18 @@ hr {
 
 .ceremony {
     background-color: DARKSLATEGREY;
-    height: 50vh;
+    height: 100vh;
 }
 
 .our-story {
     background-color: #bfadcc;
     color: #2f2d30;
-    height: 50vh;
+    height: 100vh;
 }
 
 .gallery {
     background-color: #62526d;
-    height: 50vh;
+    height: 100vh;
 }
 
 /* lists */
