@@ -102,3 +102,14 @@ dl {
     margin-right: 25%;
     padding-bottom: 150px;
 }
+
+@media only screen and (max-width: 768px) {
+    .names {
+        font-size: 3em;
+        font-family: 'Parisienne', cursive;
+    }
+
+    .divider-line {
+        width: 250px;
+    }
+}
