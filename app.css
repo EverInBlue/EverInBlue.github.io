@@ -119,4 +119,8 @@ dl {
         background-size: cover;
         background-position: center;
     }
+
+    #content {
+        padding-top: 49%;
+    }
 }
