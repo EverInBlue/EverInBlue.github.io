@@ -1,14 +1,11 @@
 #content {
     text-align: center;
-    padding-top: 25%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 18px rgba(0,0,0,0.1),
+    padding-top: 29%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+                 0px 8px 18px rgba(0,0,0,0.3),
                  0px 18px 23px rgba(0,0,0,0.1);
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -16,62 +13,44 @@ body {
     height: 100%;
 }
 
-.intro {
-    background: url("P1040880.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+.navbar {
+    background: rgba(0,0,0,0.7);
+    border: none;
 }
 
-@media only screen and (max-width: 768px) {
-    .names {
-        font-size: 3em;
-        font-family: 'Parisienne', cursive;
-    }
+.card-columns {
+    padding: 1rem;
+}
 
-    .divider-line {
-        width: 250px;
-    }
+.names-container {
+    padding-top: 85px;
+}
 
-    #content {
-        padding-top: 250px;
-        text-align: center;
-        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 18px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
-    }
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:focus {
+    color: white;
+}
 
-    .intro {
-        background: url("P10408802mobile.JPG");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .active>.nav-link {
+    background: rgba(255,255,255,0.5);
+    color: black;
 }
 
 .names {
     font-family: 'Parisienne', cursive;
 }
 
-.navbar {
-    background: rgba(0,0,0,0.7);
-    border: none;
-    font-size: 1.1em;
+.intro {
+    background: url("imgs/P10408804.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
 
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
-    color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active >a {
-    background: rgba(255,255,255,0.5);
-    color: black;
-}
 
 h1 {
     font-weight: 700;
-    font-size: 5em;
+    font-size: 4.5rem;
 }
 
 .section-title {
