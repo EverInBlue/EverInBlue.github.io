@@ -112,4 +112,11 @@ dl {
     .divider-line {
         width: 250px;
     }
+
+    .intro {
+        background: url("imgs/P10408805mobile.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
