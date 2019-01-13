@@ -53,6 +53,10 @@ h1 {
     font-size: 4.5rem;
 }
 
+h3.subtitle {
+    text-align: center;
+}
+
 .section-title {
     margin: 0;
     padding-top: 20px;
@@ -70,6 +74,10 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0px;
+}
+
+.story-paragraph {
+    text-indent: 40px;
 }
 
 hr {
