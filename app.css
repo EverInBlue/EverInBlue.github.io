@@ -13,6 +13,29 @@ body {
     height: 100%;
 }
 
+.center-content {
+    display: inline-block;
+    text-align: left;
+}
+
+a.content-link {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: slateblue;
+}
+
+.ruby {
+    width: 100%;
+}
+
+.small-text {
+    font-size: .75rem;
+}
+
 .navbar {
     background: rgba(0,0,0,0.7);
     border: none;
@@ -47,6 +70,9 @@ body {
     height: 100%;
 }
 
+.center {
+    text-align: center;
+}
 
 h1 {
     font-weight: 700;
@@ -115,6 +141,12 @@ dl {
     .names {
         font-size: 3em;
         font-family: 'Parisienne', cursive;
+    }
+
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px;
     }
 
     .divider-line {
