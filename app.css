@@ -28,6 +28,13 @@ a:hover {
   color: slateblue;
 }
 
+.pic-right {
+    float: right;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
 .ruby {
     width: 100%;
 }
@@ -143,7 +150,7 @@ dl {
         font-family: 'Parisienne', cursive;
     }
 
-    p {
+    p, .ceremony-details {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0px;
