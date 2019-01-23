@@ -31,8 +31,8 @@ a:hover {
 .pic-right {
     float: right;
     width: 400px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 
 .ruby {
@@ -169,5 +169,16 @@ dl {
 
     #content {
         padding-top: 49%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pic-right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        padding: 0;
+        float: none;
     }
 }
