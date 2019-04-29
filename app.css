@@ -108,6 +108,27 @@ p {
     margin: 0px;
 }
 
+.faq-question {
+    font-size: 1em;
+}
+
+.faq-answer {
+     padding-left: 80px;
+     padding-bottom: 15px;
+}
+
+.faq-map-answer {
+    padding-left: 80px;
+}
+
+.faq-map {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
 .story-paragraph {
     text-indent: 40px;
 }
